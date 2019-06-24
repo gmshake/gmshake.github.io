@@ -1,0 +1,3981 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">CustomImportOrder</td>
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">750</td>
+							<td id="totalBase">196</td>
+							
+								<td id="warningSeverityNumBase">196</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">750</td>
+							<td id="totalPatch">76</td>
+							
+								<td id="warningSeverityNumPatch">76</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">120</td>
+							<td id="totalDiff">120</td>
+							
+								<td id="warningSeverityNumDiff">120</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumBase">196</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumPatch">76</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumDiff">120</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">120</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">0</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/AbstractForceModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/AbstractForceModel.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/CunninghamAttractionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.analysis.differentiation.DerivativeStructure&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/CunninghamAttractionModel.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.Serializable&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModel.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/AttitudeTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/AttitudeTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/AttitudesSequenceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/AttitudesSequenceTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/BodyCenterPointingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/BodyCenterPointingTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/CelestialBodyPointingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/CelestialBodyPointingTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/FixedRateTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/FixedRateTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/InertialAttitudeTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/InertialAttitudeTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/LofOffsetPointingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/LofOffsetPointingTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/LofOffsetTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/LofOffsetTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/NadirPointingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/NadirPointingTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/SpinStabilizedTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/SpinStabilizedTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/TabulatedLofOffsetTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/TabulatedLofOffsetTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/TabulatedProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/TabulatedProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/TargetPointingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Line&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/TargetPointingTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/YawCompensationTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/YawCompensationTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/YawSteeringTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/attitudes/YawSteeringTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/EllipseTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/EllipseTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/EllipsoidTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/EllipsoidTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/IAUPoleFactoryTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.BufferedReader&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/IAUPoleFactoryTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/JPLEphemeridesLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/JPLEphemeridesLoaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/OneAxisEllipsoidTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/OneAxisEllipsoidTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/SolarBodyTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.BufferedReader&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/bodies/SolarBodyTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/ClasspathCrawlerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/ClasspathCrawlerTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/DataProvidersManagerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.File&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/DataProvidersManagerTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/DirectoryCrawlerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.File&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/DirectoryCrawlerTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/FundamentalNutationArgumentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.BufferedReader&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/FundamentalNutationArgumentsTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/NetworkCrawlerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.File&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/NetworkCrawlerTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/NutationCodecTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Arrays&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/NutationCodecTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/PoissonSeriesParserTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/PoissonSeriesParserTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/ZipJarCrawlerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.File&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/data/ZipJarCrawlerTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitIllegalArgumentExceptionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Locale&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitIllegalArgumentExceptionTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitIllegalStateExceptionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Locale&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitIllegalStateExceptionTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitInternalErrorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Locale&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitInternalErrorTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitMessagesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.text.MessageFormat&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitMessagesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitParseExceptionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Locale&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/OrekitParseExceptionTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/PropagationExceptionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Locale&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/PropagationExceptionTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/TimeStampedCacheExceptionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Locale&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/errors/TimeStampedCacheExceptionTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/AbstractForceModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.analysis.differentiation.DerivativeStructure&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/AbstractForceModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/BoxAndSolarArraySpacecraftTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Vector3D&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/BoxAndSolarArraySpacecraftTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/DTM2000Test.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/DTM2000Test.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/DragForceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.List&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/DragForceTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/JB2006Test.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.FileNotFoundException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/JB2006Test.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/SimpleExponentialAtmosphereTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Vector3D&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/drag/SimpleExponentialAtmosphereTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/AssociatedLegendreFunction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/AssociatedLegendreFunction.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/CunninghamAttractionModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.FileNotFoundException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/CunninghamAttractionModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/DrozinerAttractionModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.FileNotFoundException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/DrozinerAttractionModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.dfp.Dfp&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/ReferenceFieldModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.dfp.Dfp&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/ReferenceFieldModel.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/ThirdBodyAttractionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Vector3D&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/ThirdBodyAttractionTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/EGMFormatReaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.util.FastMath&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/EGMFormatReaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/GRGSFormatReaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.util.FastMath&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/GRGSFormatReaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/GravityFieldFactoryTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.File&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/GravityFieldFactoryTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/ICGEMFormatReaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.util.FastMath&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/ICGEMFormatReaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/SHMFormatReaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.util.FastMath&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/potential/SHMFormatReaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/ConstantThrustManeuverTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/ConstantThrustManeuverTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/ImpulseManeuverTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/ImpulseManeuverTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/SmallManeuverAnalyticalModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Vector3D&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/SmallManeuverAnalyticalModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/radiation/SolarRadiationPressureTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.FileNotFoundException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/radiation/SolarRadiationPressureTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/BulletinAFilesLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.SortedSet&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/BulletinAFilesLoaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/BulletinBFilesLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.SortedSet&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/BulletinBFilesLoaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/CIRFProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/CIRFProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/EME2000ProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Vector3D&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/EME2000ProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/EOP08C04FilesLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.SortedSet&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/EOP08C04FilesLoaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/GTODProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/GTODProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/HelmertTransformationTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Vector3D&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/HelmertTransformationTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ITRFEquinoxProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ITRFEquinoxProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ITRFProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ITRFProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ITRFProviderWithoutTidalEffectsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Rotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ITRFProviderWithoutTidalEffectsTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/InterpolatingTransformProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/InterpolatingTransformProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/MODProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/MODProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/RapidDataAndPredictionColumnsLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.SortedSet&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/RapidDataAndPredictionColumnsLoaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/RapidDataAndPredictionXMLLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.net.MalformedURLException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/RapidDataAndPredictionXMLLoaderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ShiftingTransformProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/ShiftingTransformProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TEMEProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TEMEProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TODProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TODProviderTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TopocentricFrameTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TopocentricFrameTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TransformTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A79" href = "#A79">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TransformTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/models/earth/MariniMurrayModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A80" href = "#A80">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.util.FastMath&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/models/earth/MariniMurrayModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/models/earth/SaastamoinenModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A81" href = "#A81">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert.assertEquals&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/models/earth/SaastamoinenModelTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/SpacecraftStateTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A82" href = "#A82">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/SpacecraftStateTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/AdapterPropagatorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A83" href = "#A83">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/AdapterPropagatorTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/EcksteinHechlerPropagatorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A84" href = "#A84">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/EcksteinHechlerPropagatorTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/KeplerianPropagatorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A85" href = "#A85">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/KeplerianPropagatorTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/TabulatedEphemerisTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A86" href = "#A86">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/TabulatedEphemerisTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/tle/TLEPropagatorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A87" href = "#A87">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.geometry.euclidean.threed.Line&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/tle/TLEPropagatorTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/tle/TLESeriesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A88" href = "#A88">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/tle/TLESeriesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/tle/TLETest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A89" href = "#A89">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.BufferedReader&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/analytical/tle/TLETest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/AbsoluteDateTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A90" href = "#A90">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.IOException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/AbsoluteDateTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/DateComponentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A91" href = "#A91">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/DateComponentsTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/DateTimeComponentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A92" href = "#A92">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/DateTimeComponentsTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GLONASSScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A93" href = "#A93">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GLONASSScaleTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GMSTScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A94" href = "#A94">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.After&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GMSTScaleTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GPSScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A95" href = "#A95">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GPSScaleTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GalileoScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A96" href = "#A96">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/GalileoScaleTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/QZSSScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A97" href = "#A97">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/QZSSScaleTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TAIScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A98" href = "#A98">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TAIScaleTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TAIUTCDatAFilesLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A99" href = "#A99">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TAIUTCDatAFilesLoaderTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TCGScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A100" href = "#A100">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TCGScaleTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TTScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A101" href = "#A101">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TTScaleTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TimeComponentsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A102" href = "#A102">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/TimeComponentsTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UT1ScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A103" href = "#A103">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UT1ScaleTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCScaleTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A104" href = "#A104">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCScaleTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCTAIBulletinAFilesLoaderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A105" href = "#A105">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCTAIBulletinAFilesLoaderTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCTAIHistoryFilesLoaderCompressedDataTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A106" href = "#A106">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCTAIHistoryFilesLoaderCompressedDataTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCTAIHistoryFilesLoaderRegularDataTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A107" href = "#A107">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/time/UTCTAIHistoryFilesLoaderRegularDataTest.java.html#L21">21</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/AngularCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A108" href = "#A108">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.lang.reflect.InvocationTargetException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/AngularCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/AngularDerivativesFilterTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A109" href = "#A109">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/AngularDerivativesFilterTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/CartesianDerivativesFilterTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A110" href = "#A110">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/CartesianDerivativesFilterTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/FieldAngularCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A111" href = "#A111">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Random&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/FieldAngularCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/FieldPVCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A112" href = "#A112">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.analysis.UnivariateFunction&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/FieldPVCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/GenericTimeStampedCacheTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A113" href = "#A113">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/GenericTimeStampedCacheTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/IERSConventionsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A114" href = "#A114">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.analysis.UnivariateFunction&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/IERSConventionsTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/PVCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A115" href = "#A115">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.hipparchus.analysis.UnivariateFunction&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/PVCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeSpanMapTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A116" href = "#A116">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.junit.Assert&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeSpanMapTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedAngularCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A117" href = "#A117">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedAngularCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedFieldAngularCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A118" href = "#A118">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.lang.reflect.InvocationTargetException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedFieldAngularCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedFieldPVCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A119" href = "#A119">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.ArrayList&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedFieldPVCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedPVCoordinatesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A120" href = "#A120">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/utils/TimeStampedPVCoordinatesTest.java.html#L20">20</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

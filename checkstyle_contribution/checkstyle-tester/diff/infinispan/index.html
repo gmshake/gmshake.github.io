@@ -1,0 +1,1656 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">CustomImportOrder</td>
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">4840</td>
+							<td id="totalBase">9468</td>
+							
+								<td id="warningSeverityNumBase">9468</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">4840</td>
+							<td id="totalPatch">9423</td>
+							
+								<td id="warningSeverityNumPatch">9423</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">45</td>
+							<td id="totalDiff">45</td>
+							
+								<td id="warningSeverityNumDiff">45</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumBase">9468</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumPatch">9423</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumDiff">45</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">45</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">0</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/cdi/src/main/java/org/infinispan/cdi/util/defaultbean/DefaultBeanExtension.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.lang.annotation.Annotation&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/cdi/src/main/java/org/infinispan/cdi/util/defaultbean/DefaultBeanExtension.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/main/java/org/infinispan/client/hotrod/impl/consistenthash/ConsistentHashFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.client.hotrod.configuration.Configuration&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/main/java/org/infinispan/client/hotrod/impl/consistenthash/ConsistentHashFactory.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientClusterEventsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.client.hotrod.test.HotRodClientTestingUtil.*&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientClusterEventsTest.java.html#L24">24</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientListenerWithFilterAndProtobufTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.client.hotrod.RemoteCache&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientListenerWithFilterAndProtobufTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientListenerWithFilterAndRawProtobufTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.client.hotrod.RemoteCache&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientListenerWithFilterAndRawProtobufTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientListenerWithIndexingAndProtobufTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.client.hotrod.RemoteCache&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/ClientListenerWithIndexingAndProtobufTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/RemoteListenerWithDslFilterTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.client.hotrod.RemoteCache&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/test/java/org/infinispan/client/hotrod/event/RemoteListenerWithDslFilterTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/factories/EmptyConstructorNamedCacheFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.batch.BatchContainer&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/factories/EmptyConstructorNamedCacheFactory.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/factories/InterceptorChainFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.commons.CacheConfigurationException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/factories/InterceptorChainFactory.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/factories/PartitionHandlingManagerFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.factories.annotations.DefaultFactoryFor&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/factories/PartitionHandlingManagerFactory.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/interceptors/CallInterceptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Map&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/interceptors/CallInterceptor.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/interceptors/InvocationContextInterceptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.InvalidCacheUsageException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/interceptors/InvocationContextInterceptor.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/io/MarshalledValueByteStream.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.OutputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/io/MarshalledValueByteStream.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/topology/ClusterTopologyManagerImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.commands.ReplicableCommand&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/topology/ClusterTopologyManagerImpl.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/lookup/DummyTransactionManagerLookup.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.transaction.tm.DummyTransactionManager&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/lookup/DummyTransactionManagerLookup.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/tm/DummyBaseTransactionManager.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.util.logging.Log&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/tm/DummyBaseTransactionManager.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/tm/DummyTransaction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.util.logging.Log&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/tm/DummyTransaction.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/tm/DummyUserTransaction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;javax.transaction.HeuristicMixedException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/tm/DummyUserTransaction.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Collections.singletonMap&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java.html#L34">34</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/configuration/DifferentCacheModesTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.io.ByteArrayInputStream&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/configuration/DifferentCacheModesTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/configuration/TxManagerLookupConfigTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;javax.transaction.TransactionManager&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/configuration/TxManagerLookupConfigTest.java.html#L12">12</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distexec/mapreduce/DistributedIntermediateCacheFourNodesMapReduceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Iterator&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distexec/mapreduce/DistributedIntermediateCacheFourNodesMapReduceTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distexec/mapreduce/DistributedIntermediateSharedCacheFourNodesMapReduceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;java.util.Iterator&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distexec/mapreduce/DistributedIntermediateSharedCacheFourNodesMapReduceTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distribution/SingleOwnerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.Cache&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distribution/SingleOwnerTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/jmx/CacheManagerMBeanTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;javax.management.InstanceNotFoundException&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/jmx/CacheManagerMBeanTest.java.html#L18">18</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/tx/LockCleanupStateTransferTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.commands.ReplicableCommand&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/tx/LockCleanupStateTransferTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/tx/TxCleanupServiceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.commands.tx.CommitCommand&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/tx/TxCleanupServiceTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/tx/Use1PcForInducedTxLockingTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.configuration.cache.CacheMode&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/tx/Use1PcForInducedTxLockingTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/demos/gridfs-webdav/src/main/java/org/infinispan/demos/gridfs/GridStore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;net.sf.webdav.*&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/demos/gridfs-webdav/src/main/java/org/infinispan/demos/gridfs/GridStore.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/extended-statistics/src/main/java/org/infinispan/stats/container/ConcurrentGlobalContainer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.util.TimeService&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/extended-statistics/src/main/java/org/infinispan/stats/container/ConcurrentGlobalContainer.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/integrationtests/all-embedded-query-it/src/test/java/org/infinispan/all/embeddedquery/testdomain/hsearch/ModelFactoryHS.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.all.embeddedquery.testdomain.Account&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/integrationtests/all-embedded-query-it/src/test/java/org/infinispan/all/embeddedquery/testdomain/hsearch/ModelFactoryHS.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/integrationtests/as-integration-embedded/src/test/java/org/infinispan/test/integration/as/cdi/GreetingCacheManager.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.Cache&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/integrationtests/as-integration-embedded/src/test/java/org/infinispan/test/integration/as/cdi/GreetingCacheManager.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/integrationtests/as-lucene-directory/src/test/java/org/infinispan/test/integration/as/jms/infinispan/SearchNewEntityJmsMasterSlaveUsingInfinispanAndModulesIT.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.jboss.arquillian.container.test.api.Deployment&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/integrationtests/as-lucene-directory/src/test/java/org/infinispan/test/integration/as/jms/infinispan/SearchNewEntityJmsMasterSlaveUsingInfinispanAndModulesIT.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/jcache/commons/src/main/java/org/infinispan/jcache/logging/Log.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.jboss.logging.annotations.Cause&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/jcache/commons/src/main/java/org/infinispan/jcache/logging/Log.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/persistence/jdbc/src/main/java/org/infinispan/persistence/jdbc/configuration/AbstractJdbcStoreConfigurationChildBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.configuration.cache.AbstractStoreConfigurationChildBuilder&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/persistence/jdbc/src/main/java/org/infinispan/persistence/jdbc/configuration/AbstractJdbcStoreConfigurationChildBuilder.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/test/java/org/jboss/as/clustering/infinispan/cs/factory/CustomStoreConfigurationBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.commons.configuration.Builder&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/test/java/org/jboss/as/clustering/infinispan/cs/factory/CustomStoreConfigurationBuilder.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/server/websocket/src/test/java/org/infinispan/websocket/MockChannelHandlerContext.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;io.netty.buffer.ByteBufAllocator&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/server/websocket/src/test/java/org/infinispan/websocket/MockChannelHandlerContext.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring/src/test/java/org/infinispan/spring/config/InfinispanContainerCacheManagerDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.springframework.beans.factory.annotation.Autowired&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring/src/test/java/org/infinispan/spring/config/InfinispanContainerCacheManagerDefinitionTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring/src/test/java/org/infinispan/spring/config/InfinispanEmbeddedCacheManagerDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.springframework.beans.factory.annotation.Autowired&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring/src/test/java/org/infinispan/spring/config/InfinispanEmbeddedCacheManagerDefinitionTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring/src/test/java/org/infinispan/spring/config/InfinispanRemoteCacheManagerDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.springframework.beans.factory.annotation.Autowired&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring/src/test/java/org/infinispan/spring/config/InfinispanRemoteCacheManagerDefinitionTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring4/src/test/java/org/infinispan/spring/config/InfinispanContainerCacheManagerDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.springframework.beans.factory.annotation.Autowired&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring4/src/test/java/org/infinispan/spring/config/InfinispanContainerCacheManagerDefinitionTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring4/src/test/java/org/infinispan/spring/config/InfinispanEmbeddedCacheManagerDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.springframework.beans.factory.annotation.Autowired&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring4/src/test/java/org/infinispan/spring/config/InfinispanEmbeddedCacheManagerDefinitionTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring4/src/test/java/org/infinispan/spring/config/InfinispanRemoteCacheManagerDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.springframework.beans.factory.annotation.Autowired&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/spring/spring4/src/test/java/org/infinispan/spring/config/InfinispanRemoteCacheManagerDefinitionTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/Fqn.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;net.jcip.annotations.Immutable&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/Fqn.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/tree/src/test/java/org/infinispan/FqnTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>&#39;org.infinispan.tree.Fqn&#39; should be separated from previous import group by one line.</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/infinispan/tree/src/test/java/org/infinispan/FqnTest.java.html#L4">4</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
