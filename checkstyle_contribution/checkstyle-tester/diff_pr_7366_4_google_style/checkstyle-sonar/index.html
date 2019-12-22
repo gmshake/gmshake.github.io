@@ -1,0 +1,1345 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">ThrowsCount</td>
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CustomImportOrder</td>
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">32</td>
+							<td id="totalBase">47</td>
+							
+								<td id="warningSeverityNumBase">47</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">32</td>
+							<td id="totalPatch">86 (39 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">86 (39 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">23 files with differences</td>
+							<td id="totalDiff">39 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">39 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumBase">47</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleStatisticsPatch">86 (39 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumDiff">39</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">39</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleAuditListener.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.StringUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleAuditListener.java.html#L24">24</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.annotations.VisibleForTesting&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleAuditListener.java.html#L38">38</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleConfiguration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.slf4j.Logger&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleConfiguration.java.html#L33">33</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.annotations.VisibleForTesting&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleConfiguration.java.html#L42">42</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleExecutor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.io.FileUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleExecutor.java.html#L37">37</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.annotations.VisibleForTesting&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleExecutor.java.html#L46">46</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstylePlugin.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.sonar.api.CoreProperties&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstylePlugin.java.html#L25">25</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileExporter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.StringEscapeUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileExporter.java.html#L31">31</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.annotations.VisibleForTesting&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileExporter.java.html#L44">44</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileImporter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;javax.xml.stream.XMLInputFactory&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileImporter.java.html#L28">28</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.StringUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileImporter.java.html#L31">31</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.annotations.VisibleForTesting&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleProfileImporter.java.html#L46">46</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleRulesDefinition.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.sonar.api.ExtensionPoint&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleRulesDefinition.java.html#L27">27</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.annotations.VisibleForTesting&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleRulesDefinition.java.html#L34">34</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleSeverityUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.puppycrawl.tools.checkstyle.api.SeverityLevel&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleSeverityUtils.java.html#L26">26</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleVersion.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.io.IOUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/CheckstyleVersion.java.html#L25">25</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/rule/ActiveRuleWrapperScannerImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.sonar.api.batch.rule.ActiveRule&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/rule/ActiveRuleWrapperScannerImpl.java.html#L24">24</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/rule/ActiveRuleWrapperServerImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.StringUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/main/java/org/sonar/plugins/checkstyle/rule/ActiveRuleWrapperServerImpl.java.html#L26">26</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleAuditListenerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.junit.Before&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleAuditListenerTest.java.html#L34">34</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.puppycrawl.tools.checkstyle.TreeWalker&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleAuditListenerTest.java.html#L51">51</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleConfigurationTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.io.FileUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleConfigurationTest.java.html#L30">30</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.puppycrawl.tools.checkstyle.api.Configuration&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleConfigurationTest.java.html#L47">47</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleConstantsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.junit.Test&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleConstantsTest.java.html#L26">26</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleExecutorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.io.FileUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleExecutorTest.java.html#L39">39</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.collect.ImmutableList&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleExecutorTest.java.html#L52">52</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleProfileExporterTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;javax.annotation.CheckForNull&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleProfileExporterTest.java.html#L30">30</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.StringUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleProfileExporterTest.java.html#L33">33</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleProfileImporterTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.StringUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleProfileImporterTest.java.html#L32">32</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleRulesDefinitionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.junit.Rule&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleRulesDefinitionTest.java.html#L26">26</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.collect.ImmutableList&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleRulesDefinitionTest.java.html#L31">31</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleSeverityUtilsTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.junit.Assert&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleSeverityUtilsTest.java.html#L26">26</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleTestUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.lang.CharUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleTestUtils.java.html#L26">26</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.base.Charsets&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/CheckstyleTestUtils.java.html#L31">31</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/CheckUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.google.common.collect.ImmutableSet&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/CheckUtil.java.html#L31">31</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/ChecksTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;javax.xml.parsers.ParserConfigurationException&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/ChecksTest.java.html#L38">38</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.apache.commons.beanutils.PropertyUtils&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/ChecksTest.java.html#L40">40</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;com.puppycrawl.tools.checkstyle.Checker&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/ChecksTest.java.html#L49">49</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/XmlUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;javax.xml.parsers.DocumentBuilder&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/XmlUtil.java.html#L28">28</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>CustomImportOrder</td>
+								<td>Extra separation in import group before &#39;org.junit.Assert&#39;</td>
+								
+									
+									<td><a href = "xref/Users/zlei/Downloads/checkstyle_contribution/checkstyle-tester/repositories/checkstyle-sonar/src/test/java/org/sonar/plugins/checkstyle/internal/XmlUtil.java.html#L32">32</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
